@@ -22,10 +22,12 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### App Walkthrough GIF
 
 App ran on my personal iPhone 11.
+
 <img src='https://media3.giphy.com/media/cwgerZuSVaTcCXftuE/giphy.gif?cid=790b7611d0eb0aca3cd93f2dd6e0908b7c9eda9851a7890f&rid=giphy.gif&ct=g' title='Video Walkthrough' width=250 alt='Video Walkthrough' />
 
-App ran on my personal iPad Air (3rd generation)
+App ran on my personal iPad Air (3rd generation).
+
 <img src= "https://media0.giphy.com/media/gSWnJzQ8ikO0wHICgU/giphy.gif?cid=790b7611f68acf9bba5c9df010912f65d5904106bad8be5a&rid=giphy.gif&ct=g" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+What was challenging about this assignment was understanding how the code works with one another. Instead of mindlessly copying what the instructor did for the lab, I had to take pauses to research and understand how each step is relevant to making this app. Other than that, the requirements and challenges was a nice start to IOS application.
