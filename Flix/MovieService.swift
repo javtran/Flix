@@ -11,9 +11,9 @@ class MovieService {
     static let shared = MovieService()
     
     
-    func fetchMovies(completion: @escaping(([Movie]) ->
+    func fetchMovies(url: String, completion: @escaping(([Movie]) ->
     Void)) {
-        let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
+        let url = URL(string: url)!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         let task = session.dataTask(with: request) { (data, response, error) in
@@ -30,7 +30,8 @@ class MovieService {
                  for rawData in moviesRawData {
                      let movie = Movie(name: rawData["title"] as! String,
                                        description: rawData["overview"] as! String,
-                                       poster_path: rawData["poster_path"] as! String)
+                                       poster_path: rawData["poster_path"] as! String,
+                                       backdrop_path: rawData["backdrop_path"] as! String)
                      movies.append(movie)
                  }
                  completion(movies) 
