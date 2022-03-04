@@ -29,5 +29,7 @@ App ran on my personal iPad Air (3rd generation).
 
 <img src= "https://media0.giphy.com/media/gSWnJzQ8ikO0wHICgU/giphy.gif?cid=790b7611f68acf9bba5c9df010912f65d5904106bad8be5a&rid=giphy.gif&ct=g" width=250><br>
 
+<img src= "https://media0.giphy.com/media/NVmub8QKdCQi55wa8E/giphy.gif?cid=790b7611f86cf1ff1952929e422f854c0e268e4d755e5fc8&rid=giphy.gif&ct=g" width=250><br>
+
 ### Notes
 What was challenging about this assignment was understanding how the code works with one another. Instead of mindlessly copying what the instructor did for the lab, I had to take pauses to research and understand how each step is relevant to making this app. Other than that, the requirements and challenges was a nice start to IOS application.
